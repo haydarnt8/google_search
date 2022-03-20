@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+#form_2{
+margin: 0px !important; 
+padding: 0px !important;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+#div_input {
+    display: flex;
+}
+
+.label {
+    width: 195px;
+    height: 235px;
+    margin-top: 45px !important;
+    /* border: 2px solid red; */
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+.label_2{
+    width: 310px;
+    height: 213px;
+    margin-top: 40px !important;
+    /* margin-bottom: 0px; */
+    /* border: 2px solid red; */
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2px;
+    opacity: 0.7;
+    padding-left: 8px;
+}
+
+.label label {
+    margin-bottom: 35px !important;
+    margin-top: 4px;
+}
+.label_2 label {
+    margin-bottom: 39px !important;
+    margin-top: 6px;
+}
+.submit_button{
+    background-color: #4285f4;
+    color: #ebebeb;
+    border: none;
+    padding: 8px;
+    
+}
+.button_sub{
+    width: 56%;
+    display: flex;
+    justify-content: end;
+    
+}
+.input {
+    width: 650px;
+    margin-top: 45px !important;
+    height: 235px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border-radius: 3px;
+    border: 0.7px solid #cabbbb
+}
+
+.input input {
+    margin-bottom: 30px !important;
+    height: 25px;
+}
+ul{
+    font-size: 13px;
+    color: black;
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    padding: 5px;
+    align-items: center;  
+}
+li {
+    padding: 15px 8px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.logo {
+    display: flex; 
+    justify-content: right;
+}
+
+.logo_img {
+    margin-left: -43px !important; 
+    margin-top: 71px !important;
+    color: #4285f4
+}
+.line{
+    display: block;
+    border-bottom: 1px solid #ebebeb;
+}
+.ad{
+    margin-left: 25px;
+    color: #d93025;
+    font-size: 30px;
+}
+.ul_img{
+    height: auto;
+    width: 25px;
+}
